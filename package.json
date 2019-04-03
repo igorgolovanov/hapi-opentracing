@@ -1,0 +1,39 @@
+{
+  "name": "hapi-opentracing",
+  "version": "0.0.1",
+  "description": "OpenTracing plugin for Hapi",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -La code -t 100",
+    "test-cov-xml": "lab -La code -t 100 -r junit -o coverage.xml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorgolovanov/hapi-opentracing.git"
+  },
+  "keywords": [
+    "hapi",
+    "opentracing",
+    "monitoring",
+    "tracing"
+  ],
+  "author": {
+    "name": "Igor Golovanov",
+    "email": "igor.golovanov@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/igorgolovanov/hapi-opentracing/issues"
+  },
+  "homepage": "https://github.com/igorgolovanov/hapi-opentracing#readme",
+  "dependencies": {
+    "hoek": "^6.1.3",
+    "joi": "^14.3.1",
+    "opentracing": "^0.14.3"
+  },
+  "devDependencies": {
+    "code": "^5.2.4",
+    "hapi": "^18.1.0",
+    "lab": "^18.0.2"
+  }
+}
