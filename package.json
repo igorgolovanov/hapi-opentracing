@@ -4,8 +4,8 @@
   "description": "OpenTracing plugin for Hapi",
   "main": "lib/index.js",
   "scripts": {
-    "test": "lab -La code -t 100",
-    "test-cov-xml": "lab -La code -t 100 -r junit -o coverage.xml"
+    "test": "lab -La @hapi/code -t 70",
+    "test-cov-xml": "lab -La @hapi/code -t 70 -r junit -o coverage.xml"
   },
   "repository": {
     "type": "git",
@@ -27,13 +27,13 @@
   },
   "homepage": "https://github.com/igorgolovanov/hapi-opentracing#readme",
   "dependencies": {
-    "hoek": "^6.1.3",
-    "joi": "^14.3.1",
+    "@hapi/hoek": "^6.2.1",
+    "@hapi/joi": "^15.0.0",
     "opentracing": "^0.14.3"
   },
   "devDependencies": {
-    "code": "^5.2.4",
-    "hapi": "^18.1.0",
-    "lab": "^18.0.2"
+    "@hapi/code": "^5.3.1",
+    "@hapi/hapi": "^18.2.0",
+    "@hapi/lab": "^18.1.1"
   }
 }
