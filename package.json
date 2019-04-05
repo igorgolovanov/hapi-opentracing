@@ -1,6 +1,6 @@
 {
   "name": "hapi-opentracing",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "OpenTracing plugin for Hapi",
   "main": "lib/index.js",
   "scripts": {
